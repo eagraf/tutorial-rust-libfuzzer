@@ -1,0 +1,9 @@
+{
+	"expected_fuzzers": {
+		"target_1_asan_ubsan": {
+			"fuzz_binary": "/out/fuzz_target_1_libFuzzer_asan_ubsan"
+		}
+	},
+	"docker_image": "gcr.io/oss-fuzz-base/base-builder",
+	"fuzz_engine": "libFuzzer"
+}

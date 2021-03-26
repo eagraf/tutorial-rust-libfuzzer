@@ -1,0 +1,4 @@
+base:
+  language: rust
+  sanitizers:
+    address: {}

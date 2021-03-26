@@ -1,0 +1,20 @@
+{
+	"name": "target_1_asan_ubsan",
+	"namespace": "fuzz",
+	"project_namespace": "TODO",
+	"configuration_name": "base",
+	"signature": "|data: \u0026[u8]|",
+	"language": "rust",
+	"score": 0,
+	"harness": "",
+	"harness_name": "main",
+	"imports": null,
+	"line_number": 2,
+	"file_location": "fuzz/fuzz_targets/fuzz_target_1.rs",
+	"fuzz_image": "",
+	"fuzz_binary": "/out/fuzz_target_1_libFuzzer_asan_ubsan",
+	"test_binary": "/out/fuzz_target_1_libFuzzer_asan_ubsan",
+	"fuzz_function": "fuzz_target_1",
+	"fuzz_engine": "libFuzzer",
+	"generated": false
+}
